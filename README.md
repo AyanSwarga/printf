@@ -1,12 +1,40 @@
-### C - printf.
+###   C-Printf
+### THIS IS A PAIRED PROGRAMING PROJECT ON THE PRINTF FUNCTION IN C.
 
-### Group Project Pair Programming.
+     AUTHORS: Ayan, Nicholas && Frankelly Ozonwu.
 
-### Regardless of if you think you understand something, pair programming is an invaluable industry skill that you need to practice.
+The printf function is the C language function to do formatted printing. printf in the most simplest case takes one argument: a string of characters to be printed. This string iscomposed of characters, each of which is printed ex-actly as it appears. So printf("xyz"); would sim-ply print an x, then a y, and ﬁnally a z.
 
-Perhaps, it seems obvious what you need to do, but ensure you know what you’re doing by learning through the examples below.
+The printf format string is a control parameter used by a class of functions in the input/output libraries of C and many other programming languages. The string is written in a simple template language: characters are usually copied literally into the function's output, but format specifiers, which start with a % character, indicate the location and method to translate a piece of data (such as a number) to characters.
 
+#Syntax
+ int printf (const char* c-string, ...);
 
-Let’s say we have two students, Kristen and Stuart. Stuart is trying to understand a few things that Kristen wants to help with. Here’s how it’d break down:
+Return Value: If the function successfully executes, it returns the total number of characters written to the standard output. If an error occurs, a negative number is returned.
 
-Kristen is not allowed to touch the computer; instead, they need to make sure that Stuart goes through The ALX Framework.
+Arguments: c-string is the string passed to the function. There can be additional arguments following c-string, if there exist format specifiers in the c-string.
+
+# The Most Commonly Used Format Specifiers in C 
+
+ %d (Decimal Integer) 
+
+ %c (Character) 
+
+ %f (Floating Point) 
+
+ %e (Floating Pointer Number)
+
+ %s (String) 
+
+ %lf (Double) 
+
+ %o (octal integer) 
+
+ %x (Hexadecimal Integer) 
+
+ %p (Prints Memory Address) 
+
+"printf" is the name of one of the main C output functions, and stands for "print formatted".
+
+Many languages other than C copy the printf format string syntax closely or exactly in their own I/O functions.
+
